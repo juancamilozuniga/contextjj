@@ -1,0 +1,10 @@
+Crear
+npx sequelize-cli seed:generate --name nombre-del-seeder
+npx sequelize-cli seed:generate --name reserva
+Ejecutar 
+npx sequelize-cli db:seed:all
+
+Deshacer 
+npx sequelize-cli db:seed:undo:all
+
+npx sequelize-cli seed:generate --name nombre-del-seeder
